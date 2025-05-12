@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key'  # Required for session-based flash messages
 
 # PostgreSQL connection details (use environment variables or defaults)
-DB_HOST = os.environ.get('DB_HOST', '13.127.98.84')  # Replace with your actual DB host IP
+DB_HOST = os.environ.get('DB_HOST', '13.203.66.232')  # Replace with your actual DB host IP
 DB_NAME = os.environ.get('DB_NAME', 'project1_db')
 DB_USER = os.environ.get('DB_USER', 'postgres')  # Adjust with your DB username
 DB_PASS = os.environ.get('DB_PASS', '1234')  # Adjust with your DB password
